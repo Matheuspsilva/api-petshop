@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const instancia = require('../api/banco-de-dados')
+const instancia = require('../../banco-de-dados/index')
 
 const colunas = {
     empresa: {
